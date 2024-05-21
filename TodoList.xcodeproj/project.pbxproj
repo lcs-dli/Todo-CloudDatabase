@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4950A8FB2BFD22610004EBFB /* TodoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4950A8FA2BFD22610004EBFB /* TodoListViewModel.swift */; };
 		814A08FC2BC41BC500921E4F /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814A08FB2BC41BC500921E4F /* ItemView.swift */; };
 		814A08FE2BC41C7800921E4F /* TodoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814A08FD2BC41C7800921E4F /* TodoItem.swift */; };
 		815D9D7D2BC413800050957E /* TodoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815D9D7C2BC413800050957E /* TodoListApp.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4950A8FA2BFD22610004EBFB /* TodoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewModel.swift; sourceTree = "<group>"; };
 		814A08FB2BC41BC500921E4F /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
 		814A08FD2BC41C7800921E4F /* TodoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItem.swift; sourceTree = "<group>"; };
 		815D9D792BC413800050957E /* TodoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +38,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4950A8F92BFD22360004EBFB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4950A8FA2BFD22610004EBFB /* TodoListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		815D9D702BC413800050957E = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +70,7 @@
 				815D9D8B2BC414160050957E /* Model */,
 				815D9D8A2BC413F70050957E /* Views */,
 				815D9D802BC413810050957E /* Assets.xcassets */,
+				4950A8F92BFD22360004EBFB /* ViewModel */,
 				815D9D822BC413810050957E /* Preview Content */,
 			);
 			path = TodoList;
@@ -171,6 +182,7 @@
 				814A08FC2BC41BC500921E4F /* ItemView.swift in Sources */,
 				814A08FE2BC41C7800921E4F /* TodoItem.swift in Sources */,
 				815D9D7D2BC413800050957E /* TodoListApp.swift in Sources */,
+				4950A8FB2BFD22610004EBFB /* TodoListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,7 +330,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ca.chen.sophia.TodoList-ca.chen.sophia.TodoList-ca.chen.sophia.TodoList-";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.li.david.TodoList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -348,7 +360,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ca.chen.sophia.TodoList-ca.chen.sophia.TodoList-ca.chen.sophia.TodoList-";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.li.david.TodoList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
